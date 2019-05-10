@@ -11,12 +11,15 @@ class Jumbo1 extends Component {
     render() {
         return (
 
-            <div className="jumbotron jumbotron-fluid" style={{height: '90vh'}}>
-            <div className="container">
-              <h1 className="display-4">Fluid jumbotron</h1>
-              <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <div className="jumbotron jumbotron-fluid" style={{ height: '90vh' }}>
+                <div className="container">
+                    <div style={{display: 'flex'}}>
+                        <h1 className="display-6">Dedicated and enthusiastic programming student. I am seeking an opportunity to use my skill-sets
+                        to further my knowledge of software development in a professional setting.</h1>
+                    </div>
+                    <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
             </div>
-          </div>
 
         );
     }
