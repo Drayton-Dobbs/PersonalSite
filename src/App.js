@@ -4,6 +4,8 @@ import Nav from './Nav';
 import Footer from './Footer';
 import Jumbo1 from './Jumbo';
 import Home from './home';
+import AboutMe from './aboutMe';
+import Resume from './Resume'
 import { BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
@@ -13,7 +15,7 @@ function App() {
 
       <BrowserRouter>
 
-        <Route path="/home" render={
+        <Route exact path="/" render={
           () => {
             return (
               <Home />
@@ -21,10 +23,19 @@ function App() {
           }
         }>
         </Route>
-        <Route path="/aboutMe" render={
+        <Route exact path="/aboutMe" render={
           () => {
             return (
-              <Home />
+              <AboutMe />
+            )
+          }
+        }>
+        </Route>
+         
+        <Route exact path="/resume" render={
+          () => {
+            return (
+              <Resume />
             )
           }
         }>

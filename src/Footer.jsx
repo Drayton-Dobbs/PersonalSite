@@ -20,13 +20,13 @@ class Footer extends Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                          <a href="https://www.linkedin.com/in/drayton-dobbs/ ">  <i className="fa fa-linkedin" style={{height: '4em', marginTop: '3em', fontSize: '28px'}}></i>  </a>
+                          <a href="https://www.linkedin.com/in/drayton-dobbs/ " style={{color: 'black'}}>  <i className="fa fa-linkedin" style={{height: '4em', marginTop: '3em', fontSize: '28px'}}></i>  </a>
                         </li>
                         <li className="nav-item">
-                            <a href="https://www.instagram.com/draytondobbs/ ">  <i className="fa fa-instagram" style={{height: '4em', marginLeft: '1em', marginRight: '1em', marginTop: '3em', fontSize: '28px'}}></i> </a> 
+                            <a href="https://www.instagram.com/draytondobbs/ " style={{color: 'black'}}>  <i className="fa fa-instagram" style={{height: '4em', marginLeft: '1em', marginRight: '1em', marginTop: '3em', fontSize: '28px'}}></i> </a> 
                         </li>
                         <li className="nav-item">
-                          <a href="https://github.com/Drayton-Dobbs">   <i className="fa fa-github" style={{height: '4em', marginTop: '3em', fontSize: '28px'}}></i>  </a>  
+                          <a href="https://github.com/Drayton-Dobbs" style={{color: 'black'}}>   <i className="fa fa-github" style={{height: '4em', marginTop: '3em', fontSize: '28px'}}></i>  </a>  
                         </li>
 
                     </ul>
